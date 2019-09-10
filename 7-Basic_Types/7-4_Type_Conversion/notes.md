@@ -1,6 +1,6 @@
 ## The Usual Arithmetic Conversions
 
-`
+```
 char c;
 short int s;
 int i;
@@ -19,5 +19,5 @@ ul = ul + l;    /* l is converted to unsigned long int  */
 f = f + ul;     /* ul is converted to float             */
 d = d + f;      /* f is converted to double             */
 ld = ld + d;    /* d is converted to long double        */
-`
+```
 
