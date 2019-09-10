@@ -130,5 +130,5 @@ Instead:
 `i = (long) j * j;`
 The first `j` is converted to `long`, so by implicit, usual arithmetic conversion the second `j` is also converted to `long`.
 
-`i = (long) (j * j);    /\*\*\* WRONG \*\*\*/`
+`i = (long) (j * j);    /*** WRONG ***/`
 Overflow would occur before the cast.
