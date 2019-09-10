@@ -1,5 +1,14 @@
 ## The Usual Arithmetic Conversions
 
+The compiler handles *implicit conversions* automatically.
+C also allows the programmer to perform *explicit conversions*, using the cast operator.
+
+Implicit conversions are performed when:
+- Arithmetic: the operands in an arithmetic expressions don't have the same type
+- Assignment: the type of the expression on the right side of an assignment doesn't match the type of the variable on the left side
+- Function Parameters: type of argument in a function call doesn't match the type of the corresponding parameter
+- Function Return: type of expression in `return` statement doesn't match the function's return type
+
 ```
 char c;
 short int s;
