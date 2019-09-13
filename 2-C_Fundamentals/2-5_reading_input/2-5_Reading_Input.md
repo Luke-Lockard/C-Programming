@@ -15,3 +15,7 @@ The `&` sign will be explained later, but is usually needed for `scanf`.
 ```c
 scanf("%f", &x);    /* reads a float value; stores into x */
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> e71432f51159efee2e20e45ff94703c23385af90

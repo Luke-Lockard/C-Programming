@@ -38,4 +38,8 @@ int main(void){float fahrenheit,celcius;printf("Enter Fahrenheit temperature: ")
     ```
 
 - *Indentation* can make nesting easier to spot.
+<<<<<<< HEAD
 - *Blank lines* can divide a program into logical units.
+=======
+- *Blank lines* can divide a program into logical units.
+>>>>>>> e71432f51159efee2e20e45ff94703c23385af90

@@ -22,7 +22,11 @@ C is ***case-sensitive***. So the following are all different identifiers:
 job joB jOb jOB Job JOb JOB
 ```
 
+<<<<<<< HEAD
 ## There are some common conventions
+=======
+## There are some common conventions:
+>>>>>>> e71432f51159efee2e20e45ff94703c23385af90
 
 Use only lowercase letters in identifiers (other than macros), with underscores inserted when necessary for legibility:
 
@@ -66,3 +70,7 @@ Keywords must appear in programs exactly as shown, with all lowercase letters.
 Some compilers treat additional words as keywords! Identifiers that belong to the standard library are restricted as well. Identifiers that begin with an underscore are also restricted.
 
 ---
+<<<<<<< HEAD
+=======
+
+>>>>>>> e71432f51159efee2e20e45ff94703c23385af90
