@@ -35,34 +35,23 @@ int main(void)
             magic_square[i][j] = 0;
     }
 
-    printf("Starter:\n");
-    for (int x = 0; x < n; x++) {
-        for (int y = 0; y < n; y++)
-            printf("%5d", magic_square[x][y]);
-        printf("\n");
-    }
-    printf("\n");
+    // printf("Starter:\n");
+    // for (int x = 0; x < n; x++) {
+    //     for (int y = 0; y < n; y++)
+    //         printf("%5d", magic_square[x][y]);
+    //     printf("\n");
+    // }
+    // printf("\n");
 
     i = 0, j = n / 2;
     for (k = 1; k <= (n * n); k++) {
         
         magic_square[i][j] = k;
 
-        printf("Iteration %d: [%d][%d]\n", k, i, j);
-        for (int x = 0; x < n; x++) {
-            for (int y = 0; y < n; y++)
-                printf("%5d", magic_square[x][y]);
-            printf("\n");
-        }
-        
-
         next_i = i - 1;
         next_j = j + 1;
         if (next_i < 0) next_i = n - 1;
         if (next_j >= n) next_j = 0;
-
-        printf("next: [%d][%d]\n", next_i, next_j);        
-        printf("\n");
 
         if (magic_square[next_i][next_j] != 0) {
             i++;
@@ -73,6 +62,14 @@ int main(void)
             if (i < 0) i = n - 1;
             if (j >= n) j = 0;
         }
+    }
+
+    // printf("Iteration %d: [%d][%d]\n", k, i, j);
+    for (int x = 0; x < n; x++)
+    {
+        for (int y = 0; y < n; y++)
+            printf("%5d", magic_square[x][y]);
+        printf("\n");
     }
 
     return 0;
